@@ -5,6 +5,6 @@
 
 ## Plugins need to include in assets folder:
 
--calendarjs
--photoswipe
--swiper
+* calendarjs
+* photoswipe
+* swiper
