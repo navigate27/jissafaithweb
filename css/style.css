@@ -1,0 +1,119 @@
+
+
+/*OVERRIDING INPUT FIELDS*/
+/*input:not([type]),
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=url],
+input[type=time],
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+input[type=tel],
+input[type=number],
+input[type=search],
+textarea.materialize-textarea {
+  color: #616161;
+}
+
+input:not([type]).valid, input:not([type]):focus.valid,
+input[type=text].valid,
+input[type=text]:focus.valid,
+input[type=password].valid,
+input[type=password]:focus.valid,
+input[type=email].valid,
+input[type=email]:focus.valid,
+input[type=url].valid,
+input[type=url]:focus.valid,
+input[type=time].valid,
+input[type=time]:focus.valid,
+input[type=date].valid,
+input[type=date]:focus.valid,
+input[type=datetime].valid,
+input[type=datetime]:focus.valid,
+input[type=datetime-local].valid,
+input[type=datetime-local]:focus.valid,
+input[type=tel].valid,
+input[type=tel]:focus.valid,
+input[type=number].valid,
+input[type=number]:focus.valid,
+input[type=search].valid,
+input[type=search]:focus.valid,
+textarea.materialize-textarea.valid,
+textarea.materialize-textarea:focus.valid {
+  border-bottom: 1px solid #26a69a;
+  box-shadow: 0 1px 0 0 #26a69a;
+}
+
+.material-icons.md-light { 
+  color: rgba(255, 255, 255, 1); 
+}
+
+
+a {
+  color: #40c4ff;
+}
+*/
+
+/*JISSA style*/
+
+nav ul a.jissa{
+  color: #ffca28; /*amber lighten-1*/
+}
+nav ul a.jissa:hover{
+  background: #42a5f5; /*blue lighten-1*/
+  color: #fff;
+}
+
+nav .brand-logo {
+  color: #ffca28;
+}
+
+p {
+  line-height: 1.5rem;
+}
+
+.parallax-container.jissa{
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section.jissa {
+  width: 100%;
+}
+
+.parallax-container.jissa-news{
+  top: 10;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section.jissa {
+    position: absolute;
+    top: 40%;
+  }
+  .jissa-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  .jissa-banner .section {
+    top: 0;
+  }
+}
+
+footer.page-footer.jissa {
+  margin: 0;
+}
+
+.news-stacked .row:hover {
+  background: #eee;
+}
+.news-stacked .row a{
+  color: #039be5;
+}
